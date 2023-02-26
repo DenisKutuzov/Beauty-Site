@@ -752,8 +752,6 @@ a:hover {
   background-color: #efefef;
   padding-top: 25px;
   padding-bottom: 25px;
-  display: flex;
-  justify-content: space-between;
 }
 .footer__politica .footer__text {
   font-size: 12px;
@@ -763,4 +761,9 @@ a:hover {
   .footer__politica .footer__text {
     font-size: 10px;
   }
+}
+
+.footer__row {
+  display: flex;
+  justify-content: space-between;
 }

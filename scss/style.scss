@@ -205,7 +205,6 @@ a:hover {
   overflow: hidden;
   margin-bottom: 80px;
 
-
   .super__row {
     display: flex;
     padding-right: 65px;
@@ -633,8 +632,6 @@ a:hover {
   background-color: #efefef;
   padding-top: 25px;
   padding-bottom: 25px;
-  display: flex;
-  justify-content: space-between;
 
   .footer__text {
     font-size: 12px;
@@ -644,4 +641,9 @@ a:hover {
       font-size: 10px;
     }
   }
+}
+
+.footer__row {
+  display: flex;
+  justify-content: space-between;
 }
